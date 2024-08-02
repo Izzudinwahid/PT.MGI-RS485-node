@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mm"/>
@@ -6192,7 +6192,7 @@ design rules under a new name.</description>
 <wire x1="51.907915625" y1="64.788065625" x2="50.218625" y2="64.788065625" width="0.254" layer="1"/>
 <wire x1="50.218625" y1="64.788065625" x2="50.14721875" y2="64.716659375" width="0.254" layer="1"/>
 <via x="50.14721875" y="64.716659375" extent="1-16" drill="0.35"/>
-<polygon width="0.0762" layer="1">
+<polygon width="0.0762" layer="1" isolate="0.3048">
 <vertex x="14" y="100"/>
 <vertex x="80" y="100"/>
 <vertex x="80" y="40"/>
@@ -6204,7 +6204,7 @@ design rules under a new name.</description>
 <vertex x="3" y="85"/>
 <vertex x="14" y="85"/>
 </polygon>
-<polygon width="0.0762" layer="16">
+<polygon width="0.0762" layer="16" isolate="0.4064">
 <vertex x="14" y="100"/>
 <vertex x="80" y="100"/>
 <vertex x="80" y="40"/>
@@ -6219,20 +6219,19 @@ design rules under a new name.</description>
 <vertex x="14" y="53"/>
 <vertex x="26" y="53"/>
 <vertex x="26" y="43"/>
-<vertex x="36" y="43"/>
-<vertex x="36" y="40"/>
+<vertex x="37" y="43"/>
+<vertex x="37" y="40"/>
 <vertex x="14" y="40"/>
 </polygon>
 <polygon width="0.0762" layer="1">
 <vertex x="14" y="53"/>
 <vertex x="26" y="53"/>
 <vertex x="26" y="43"/>
-<vertex x="36" y="43"/>
-<vertex x="36" y="40"/>
+<vertex x="37" y="43"/>
+<vertex x="37" y="40"/>
 <vertex x="14" y="40"/>
 </polygon>
 <via x="37" y="42" extent="1-16" drill="0.35"/>
-<wire x1="34.41191875" y1="55.450740625" x2="23.7" y2="47.3" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$11">
 <contactref element="PS2" pad="1"/>
@@ -6361,6 +6360,43 @@ design rules under a new name.</description>
 <approved hash="7,39,7085b2c732c7f085"/>
 <approved hash="7,39,9b0dd4ca54ca1b0d"/>
 <approved hash="7,39,438105408540c381"/>
+<approved hash="19,1,9f7d75673c15edab"/>
+<approved hash="19,1,7043cb0392cf6a28"/>
+<approved hash="19,1,90d45faa49e19106"/>
+<approved hash="19,1,9b9c8253414a0d10"/>
+<approved hash="19,1,6a571bb80c0774f1"/>
+<approved hash="19,1,8b9c9d34ae24cc61"/>
+<approved hash="19,1,21f7ca792651f0df"/>
+<approved hash="19,1,a0886fce7e75ae3a"/>
+<approved hash="19,1,96fbf64042657fcd"/>
+<approved hash="19,1,7112786b481e5a60"/>
+<approved hash="19,1,97e54551acf74723"/>
+<approved hash="5,1,4aac65d9b57f7b0c"/>
+<approved hash="5,1,b1179721db1bb258"/>
+<approved hash="5,1,e22e5252aa0b625b"/>
+<approved hash="4,1,d0c8cbc67004e7c3"/>
+<approved hash="4,1,56767cd72be213bc"/>
+<approved hash="4,1,4990a685956e835b"/>
+<approved hash="4,1,dfa7c6997982e5de"/>
+<approved hash="4,1,3c22aee06e8a8cc4"/>
+<approved hash="4,2,56767cd72be213bc"/>
+<approved hash="4,3,56767cd72be213bc"/>
+<approved hash="4,5,56767cd72be213bc"/>
+<approved hash="4,6,56767cd72be213bc"/>
+<approved hash="4,7,56767cd72be213bc"/>
+<approved hash="4,8,56767cd72be213bc"/>
+<approved hash="4,9,56767cd72be213bc"/>
+<approved hash="4,10,56767cd72be213bc"/>
+<approved hash="4,11,56767cd72be213bc"/>
+<approved hash="4,12,56767cd72be213bc"/>
+<approved hash="4,13,56767cd72be213bc"/>
+<approved hash="4,14,56767cd72be213bc"/>
+<approved hash="4,15,56767cd72be213bc"/>
+<approved hash="4,16,56767cd72be213bc"/>
+<approved hash="4,16,236f686d6b0a38a3"/>
+<approved hash="4,16,bf65f19bc40e5ba3"/>
+<approved hash="4,4,56767cd72be213bc"/>
+<approved hash="19,1,abc0bd0f76e63d74"/>
 </errors>
 </board>
 </drawing>

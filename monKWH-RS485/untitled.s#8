@@ -19713,6 +19713,10 @@ Source: DCJ0202.pdf</description>
 <pinref part="J3" gate="G$1" pin="SHIELD2"/>
 <wire x1="-93.98" y1="193.04" x2="-93.98" y2="187.96" width="0.1524" layer="91"/>
 <junction x="-93.98" y="187.96"/>
+<pinref part="J3" gate="G$1" pin="GND"/>
+<wire x1="-96.52" y1="187.96" x2="-101.6" y2="187.96" width="0.1524" layer="91"/>
+<wire x1="-101.6" y1="187.96" x2="-101.6" y2="193.04" width="0.1524" layer="91"/>
+<junction x="-96.52" y="187.96"/>
 </segment>
 <segment>
 <pinref part="GND2" gate="1" pin="GND"/>

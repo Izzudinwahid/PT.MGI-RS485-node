@@ -19163,7 +19163,6 @@ Source: DCJ0202.pdf</description>
 <part name="R8" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="M0805" package3d_urn="urn:adsk.eagle:package:6240587/1" value="10K"/>
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="D4" library="1N5819HW-7" deviceset="1N5819HW-7" device=""/>
-<part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="P+3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="MD1" library="Espressif Systems - ESP32-WROOM-32U (16MB)" deviceset="ESPRESSIF_SYSTEMS_ESP32-WROOM-32U_16MB" device="ESPRESSIF_SYSTEMS_ESP32-WROOM-32U_16MB_0_0"/>
 <part name="U$2" library="usb-serial" deviceset="CH340G" device=""/>
@@ -19306,9 +19305,6 @@ Source: DCJ0202.pdf</description>
 <instance part="D4" gate="G$1" x="99.06" y="162.56" smashed="yes">
 <attribute name="NAME" x="93.98" y="165.1" size="1.778" layer="95"/>
 <attribute name="VALUE" x="93.98" y="158.75" size="1.778" layer="96"/>
-</instance>
-<instance part="P+1" gate="VCC" x="68.58" y="55.88" smashed="yes">
-<attribute name="VALUE" x="66.04" y="53.34" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="P+3" gate="VCC" x="-76.2" y="116.84" smashed="yes" rot="R180">
 <attribute name="VALUE" x="-73.66" y="119.38" size="1.778" layer="96" rot="R270"/>
@@ -19856,6 +19852,15 @@ Source: DCJ0202.pdf</description>
 <wire x1="88.9" y1="121.92" x2="92.71" y2="121.92" width="0.1524" layer="91"/>
 <junction x="88.9" y="121.92"/>
 </segment>
+<segment>
+<pinref part="R4" gate="G$1" pin="2"/>
+<pinref part="R5" gate="G$1" pin="2"/>
+<wire x1="66.04" y1="48.26" x2="68.58" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="48.26" x2="71.12" y2="48.26" width="0.1524" layer="91"/>
+<junction x="68.58" y="48.26"/>
+<wire x1="68.58" y1="53.34" x2="68.58" y2="48.26" width="0.1524" layer="91"/>
+<label x="68.58" y="53.34" size="1.778" layer="95" rot="R90" xref="yes"/>
+</segment>
 </net>
 <net name="N$12" class="0">
 <segment>
@@ -19914,15 +19919,6 @@ Source: DCJ0202.pdf</description>
 </segment>
 </net>
 <net name="VCC" class="0">
-<segment>
-<pinref part="R4" gate="G$1" pin="2"/>
-<pinref part="R5" gate="G$1" pin="2"/>
-<wire x1="66.04" y1="48.26" x2="68.58" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="68.58" y1="48.26" x2="71.12" y2="48.26" width="0.1524" layer="91"/>
-<junction x="68.58" y="48.26"/>
-<pinref part="P+1" gate="VCC" pin="VCC"/>
-<wire x1="68.58" y1="53.34" x2="68.58" y2="48.26" width="0.1524" layer="91"/>
-</segment>
 <segment>
 <pinref part="C1" gate="G$1" pin="1"/>
 <wire x1="-68.58" y1="129.54" x2="-76.2" y2="129.54" width="0.1524" layer="91"/>
